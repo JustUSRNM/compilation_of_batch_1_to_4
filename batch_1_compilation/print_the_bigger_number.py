@@ -1,2 +1,2 @@
-first_number = float(input("Please enter a number "))
-second_number = float(input("Please enter another number "))
+first_number = int(input("Please enter a number "))
+second_number = int(input("Please enter another number "))
