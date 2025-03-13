@@ -4,6 +4,6 @@ while True:
         inputted_number = int(input("Please enter a number "))
         number_list.append(inputted_number)
     except ValueError:
-        number_list.sort()
+        number_list.sort(reverse=True)
         print (number_list)
         break
