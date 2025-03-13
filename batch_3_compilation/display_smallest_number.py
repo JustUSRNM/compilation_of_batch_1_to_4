@@ -1,5 +1,5 @@
 while True:
     try:
-        imputted_number = int(input("Please enter a number "))
+        inputted_number = int(input("Please enter a number "))
     except ValueError:
         break
