@@ -1,9 +1,11 @@
 inputted_number = [int(input("Enter a number ")) for i in range(10)]
 
-times_inputted = {}
+used_numbers=set()
+list_of_numbers = []
+
 for individual_number in inputted_number:
-    times_inputted[individual_number] = times_inputted.get(individual_number, 0) + 1
+    if individual_number not in used_numbers:
+        list_of_numbers.append(individual_number)
+        used_numbers.add(individual_number)
 
-unique_numbers = [individual_number for individual_number in inputted_number if times_inputted[individual_number]==1]
-
-print (unique_numbers)
+print (list_of_numbers)
