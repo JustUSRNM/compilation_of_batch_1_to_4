@@ -8,3 +8,26 @@ seventh_number = int(input("Please enter seventh number "))
 eighth_number = int(input("Please enter eighth number "))
 ninth_number = int(input("Please enter ninth number "))
 tenth_number = int(input("Please enter tenth number "))
+
+number_of_odds = 0
+if first_number % 2 != 0:
+    number_of_odds += 1
+if second_number % 2 != 0:
+    number_of_odds += 1    
+if third_number % 2 != 0:
+    number_of_odds += 1
+if fourth_number % 2 != 0:
+    number_of_odds += 1
+if fifth_number % 2 != 0:
+    number_of_odds += 1
+if sixth_number % 2 != 0:
+    number_of_odds += 1
+if seventh_number % 2 != 0:
+    number_of_odds += 1
+if eighth_number % 2 != 0:
+    number_of_odds += 1
+if ninth_number % 2 != 0:
+    number_of_odds += 1
+if tenth_number % 2 != 0:
+    number_of_odds += 1
+print (number_of_odds)
